@@ -21,7 +21,7 @@ ENV RAILS_ENV development
 ENV RAILS_SERVE_STATIC_FILES true
 
 # Precompile assets
-RUN bundle exec rake assets:precompile
+# RUN bundle exec rake assets:precompile
 
 # Run database migrations
 # RUN bundle exec rake db:migrate
